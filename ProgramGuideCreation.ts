@@ -9,7 +9,7 @@ import { drive } from 'googleapis/build/src/apis/drive';
 import { Driver } from 'selenium-webdriver/safari';
 import { Dataset } from '@google-cloud/bigquery';
 var fs = require('fs');
-var request = require('request');
+// var request = require('request');
 var formatCSV = '';
 
 // スプレッドシートIDとシート名を記載
