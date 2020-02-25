@@ -107,8 +107,6 @@ async function TwitterLogin() {
   // アイパス一覧シートからTwitterのIDとパスワードを取得
   const TwitterID = await RPA.Google.Spreadsheet.getValues({spreadsheetId:`${SSID2}`,range:`${SSName2}!D3:D3`});
   const TwitterPW = await RPA.Google.Spreadsheet.getValues({spreadsheetId:`${SSID2}`,range:`${SSName2}!E3:E3`});
-  RPA.Logger.info(TwitterID[0][0]);
-  RPA.Logger.info(TwitterPW[0][0]);
   // Twitterにログイン
   await RPA.WebBrowser.get(process.env.Twitter_Login_URL);
   await RPA.sleep(2000);
