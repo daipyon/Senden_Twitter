@@ -40,9 +40,9 @@ async function WorkStart() {
 
   // 日付の一致判定
   const WorkData = [];
-  await JudgeData(WorkData, Row, Link1, Link2, Link3);
+//   await JudgeData(WorkData, Row, Link1, Link2, Link3);
 
-  await PhotoshopData(WorkData, Row);
+//   await PhotoshopData(WorkData, Row);
 }
 
 async function Start() {
