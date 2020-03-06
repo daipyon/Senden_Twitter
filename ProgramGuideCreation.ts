@@ -5,7 +5,6 @@ import { worker } from 'cluster';
 import { cachedDataVersionTag } from 'v8';
 import { start } from 'repl';
 import { Command } from 'selenium-webdriver/lib/command';
-import { drive } from "googleapis/build/src/apis/drive";
 import { Driver } from 'selenium-webdriver/safari';
 import { Dataset } from '@google-cloud/bigquery';
 var fs = require('fs');
