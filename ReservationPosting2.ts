@@ -86,7 +86,7 @@ async function Start() {
     await RPA.Slack.chat.postMessage({
       token: Slack_Token,
       channel: Slack_Channel,
-      text: '【宣伝_Twitter 予約投稿（番組表）】でエラーが発生しました！'
+      text: '【宣伝_Twitter 予約投稿（番組表）】（CAPC-1375用）でエラーが発生しました！'
     });
   }
   RPA.Logger.info('作業を終了します');
