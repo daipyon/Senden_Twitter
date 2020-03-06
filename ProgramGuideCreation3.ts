@@ -62,7 +62,7 @@ async function Start() {
     await RPA.Slack.chat.postMessage({
       token: Slack_Token,
       channel: Slack_Channel,
-      text: '【宣伝_Twitter 番組表作成】でエラーが発生しました！'
+      text: '【宣伝_Twitter 番組表作成】（CAPC-1895用）でエラーが発生しました！'
     });
   }
   await RPA.WebBrowser.quit();
