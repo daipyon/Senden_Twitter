@@ -40,9 +40,9 @@ async function WorkStart() {
 
   // 日付の一致判定
   const WorkData = [];
-  await JudgeData(WorkData, Row, Link1, Link2, Link3);
+//   await JudgeData(WorkData, Row, Link1, Link2, Link3);
 
-  await PhotoshopData(WorkData, Row);
+//   await PhotoshopData(WorkData, Row);
 }
 
 async function Start() {
@@ -61,7 +61,7 @@ async function Start() {
     await RPA.Slack.chat.postMessage({
       token: Slack_Token,
       channel: Slack_Channel,
-      text: '【宣伝_Twitter 番組表作成】（CAPC-1375用）でエラーが発生しました！'
+      text: '【宣伝_Twitter 番組表作成】（100-00422用）でエラーが発生しました！'
     });
   }
   await RPA.WebBrowser.quit();
