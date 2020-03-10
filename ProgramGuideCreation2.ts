@@ -17,7 +17,8 @@ RPA.Logger.level = 'INFO';
 const SSID = process.env.Senden_Twitter_SheetID;
 const SSName = process.env.Senden_Twitter_SheetName;
 // 画像などを保存するフォルダのパスを記載 ※.envファイルは同じにしない
-const DownloadFolder = process.env.Senden_Twitter_DownloadFolder2;
+// const DownloadFolder = process.env.Senden_Twitter_DownloadFolder2;
+const DownloadFolder = __dirname + '/DL/';
 // 番組表リンク
 const Link1 = process.env.Program_Guide_Link1;
 const Link2 = process.env.Program_Guide_Link2;
