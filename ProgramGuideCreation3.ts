@@ -598,7 +598,7 @@ async function JudgeData(WorkData, Row, Link1, Link2, Link3) {
           { method: 'GET', url: ImageUrlRename, encoding: null },
           function(error, response, body) {
             if (!error && response.statusCode === 200) {
-              fs.writeFile(
+              fs.writeFileSync(
                 `${DownloadFolder}/${Renamming}`,
                 body,
                 'binary'
