@@ -14,12 +14,11 @@ var formatCSV = '';
 RPA.Logger.level = 'INFO';
 
 // スプレッドシートIDとシート名を記載
-const SSID = process.env.Senden_Twitter_SheetID3;
+const SSID = process.env.Senden_Twitter_SheetID;
 const SSName = process.env.Senden_Twitter_SheetName;
 // 画像などを保存するフォルダのパスを記載 ※.envファイルは同じにしない
-// const DownloadFolder = process.env.Senden_Twitter_DownloadFolder4;
+// const DownloadFolder = process.env.Senden_Twitter_DownloadFolder;
 const DownloadFolder = __dirname + '/DL/';
-RPA.Logger.info(DownloadFolder);
 
 // 番組表リンク
 const Link1 = process.env.Program_Guide_Link1;
